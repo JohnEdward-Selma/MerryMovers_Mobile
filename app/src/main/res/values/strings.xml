@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MerryMovers</string>
+    <string name="welcome_title">MerryMovers</string>
+    <string name="welcome_subtitle">Professional moving services and vehicle rentals to make your move stress-free</string>
+    <string name="feature_vehicles_title">Reliable Vehicles</string>
+    <string name="feature_vehicles_body">Modern fleet of trucks and vans</string>
+    <string name="feature_service_title">Expert Service</string>
+    <string name="feature_service_body">Professional packing and moving</string>
+    <string name="create_account">Create Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="continue_guest">Continue as Guest</string>
+    <string name="terms_intro">By continuing, you agree to our</string>
+    <string name="policies">Terms of Service and Privacy Policy</string>
+</resources>

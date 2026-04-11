@@ -1,13 +1,14 @@
-package com.example.merry_movers_mobile
+package com.example.merry_movers_mobile.screens.welcome
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.example.merry_movers_mobile.R
 
-class MainActivity : AppCompatActivity() {
+class WelcomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.welcome_screen)
+        setContentView(R.layout.activity_welcome)
     }
 }

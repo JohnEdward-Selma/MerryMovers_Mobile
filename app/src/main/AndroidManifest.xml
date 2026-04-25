@@ -13,7 +13,19 @@
         android:theme="@style/Theme.Merry_movers_mobile"
         tools:targetApi="31">
         <activity
-            android:name=".screens.welcome.WelcomeActivity"
+            android:name=".features.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.market.MarketActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.welcome.WelcomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
